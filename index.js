@@ -9,7 +9,7 @@ import userRoutes from "./routes/user.js";
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 const CONNECTION_URL = process.env.CONNECTION_URL;
 
 mongoose
